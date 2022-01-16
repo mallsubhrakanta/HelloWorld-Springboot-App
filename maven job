@@ -19,7 +19,7 @@ pipeline{
         }
         stage('maven deploy'){
             steps{
-                sh 'mvn deploying'
+                echo "deploying war file to server"
             }
         }
     }
